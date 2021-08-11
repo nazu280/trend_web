@@ -6,7 +6,42 @@
       <style>
         @import url(mobile.css) screen and (hover: none) and (pointer: coarse);
       </style>
+      <style>
+        #btn1{
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-right:-4px;
+            border: 1px solid #4BDA93;
+            background-color: rgba(0,0,0,0);
+            color: #4BDA93;
+            padding: 5px;
+        }
+        #btn_group button:hover{
+            color:white;
+            background-color: #4BDA93;
+        }
+/*        #test_btn2{
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-left:-3px;
+        }
+        #btn_group button{
+            border: 1px solid skyblue;
+            background-color: rgba(0,0,0,0);
+            color: skyblue;
+            padding: 5px;
+        }
+        #btn_group button:hover{
+            color:white;
+            background-color: skyblue;
+        }*/
+    </style>
     </head>
+    <SCRIPT LAUNGUAGE='JAVASCRIPT'>
+      function popup() { window.open("popup.html", "popup", "width=400, height=300, left=100, top=50"); }
+    </SCRIPT>
     <body>
         <div class="container">
             <header>
@@ -23,6 +58,9 @@
             <section>
                 <p>Trend</p>
                 <p>한국 유튜브 트렌드를 따라간다! 유튜브 트렌드 '비'공식 홈페이지입니다. 이 사이트는 네즈라는 인간이 만들었으며 별 기능은 없습니다.</p>
+                <div id="btn_group">
+                  <button id="btn1" onclick='popup()'>디스코드 서버 위젯</button>
+                </div>
             </section>
             <footer></footer>
         </div>
