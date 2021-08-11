@@ -20,10 +20,10 @@ header {
   align-items: center;
   padding: 1.2rem 0;
 }
-header>p {
+/*header>p {
   font-size: 1.5rem;
   font-weight: 700;
-}
+}*/
 header>ul {
   display: flex;
 }

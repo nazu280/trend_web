@@ -7,10 +7,10 @@
     padding: 1.2rem 0;
     flex-direction: column;
   }
-  header>p {
+  /*header>p {
     font-size: 4rem;
     font-weight: 700;
-  }
+  }*/
   header>ul {
     display: flex;
   }
